@@ -64,8 +64,28 @@ fun testIterations() {
         }
 
 
-        for ( i in 1..7){
+        //in keyword for iteration
+        val range1 = IntRange(1,7)
+        val range2 = 1..9
+        val range3 = 1 until 11
+        val range4 = 9 downTo 1
+
+        val range5 = 1..9 step 2
+
+        val range6 = IntProgression.fromClosedRange(1,6,2)
+
+
+        for ( i in range1){
              println(i)
+        }
+
+        for(ch in "Kotlin"){
+                println(ch)
+        }
+
+        var i = 0
+        repeat(10){
+                println(i++)
         }
 
 }
@@ -97,6 +117,16 @@ fun testConditionals() {
                  1 -> "Monday"
                  2 -> "Tuesday"
         }
+
+
+        //in as membership
+        val range = IntRange(1,10)
+        val range2 = 'a'..'z'
+
+        if( 5 in range) println( " 5 is there ")
+
+        if('c' in range2) println( " c is there in alphabet")
+
 
 
 }
