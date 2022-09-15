@@ -2,13 +2,17 @@ package basics
 
 class Foundation {
 
+    //https://github.com/JetBrains/kotlin
+    //https://kotlinlang.org/
+
     //Basics
 
     /*
     1. Programming 101
-    2. Variables
-    3. Conditions
-    4. Loops
+    2. Variables /Properties
+    3. Functions
+    4. Conditions
+    5. Control Structures (for ,while ,when )
     */
 
 
@@ -22,6 +26,7 @@ class Foundation {
     5. Class & Objects
     */
 
+    //Kotlin Specific Concepts
 
     //Collection
 
@@ -36,4 +41,6 @@ class Foundation {
     //Threading
 
     //Exception Handling
+
+    //Functional Programming
 }
